@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.Header {
+    position: relative;
+    width: 850px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+}
+.header-bg {
+    position: relative;
+    height: 300px;
+    background-image: url(/assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 850px 300px;
+}
+
+
+.profilePicture, img{
+    position: relative;
+    top: -59px;
+    left: 9px;
+    width: 150px;
+    height: 150px;
+}
+
+.profileInfo {
+    position: relative;
+    top: -110px;
+    left: 100px;
+    color: rgba(75, 42, 77, 0.829);
+    font-size: 20px;
+    
+}
+.name {
+    position: relative;
+    top: -150px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.website {
+    position: relative;
+    top: -170px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+}
+
+.buttons {
+    position: relative;
+    top: -170px;
+    left: -10px;
+    float: right;
+}
+
+.dot {
+    font-size: x-small;
+}
+
+.navbar{
+    position: relative;
+    top: -296px;
+    left: -1px;
+    width: 850px;
+    height: 50px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav {
+    float: left;
+}
+.nav a{
+    position: relative;
+    top: 10px;
+    left: 145px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border-right: 1px solid grey;
+}
+
+.nav:last-child a{
+    border-right: none;
+}
+
+.nav a:hover {
+    background-color: lavender;
+}
+
+
+
+.content{
+    position: relative;
+    width: 850px;
+    height: 500px;
+    margin: 10px auto;
+    
+}
+.left {
+    position: relative;
+    width: 328px;
+    height: 500px;
+  
+
+}
+
+.l1 {
+    position: relative;
+    background-color: honeydew;
+    border: 1px solid black;
+    height: 180px;
+}
+.blank {
+    position: relative;
+    top: -1px;
+    left: -1px;
+    height: 20px;
+    width: 328px;
+    border: 1px solid black;
+    background-color: honeydew;
+}
+. .l1 .about {
+    position; relative;
+    top: 20px;
+    left: -3px;
+    height: 100px;
+    width: 328px;
+    background-color: honeydew;
+    border: 1px solid black; 
+    
+    
+}
+
+.about, .info {
+    position: relative;
+    left: 0px;
+    padding: 0px 20px;
+}
+
+.l1 .website {
+    position: relative;
+    top: 0px;
+    left: -1px;
+    height: 30px;
+    width: 328px;
+    background-color: honeydew;
+    border: 1px solid black;
+    font-size: medium;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.website a{
+    position: relative;
+    top: -2px;
+    left: 0;
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.l2 {
+    position: relative;
+    top: 20px;
+    background-color: honeydew;
+    border: 1px solid black;  
+    height: 77px;
+    width: 328px;
+}
+
+.l2 .about {
+    position: relative;
+    padding: 5px 5px;
+    top: -17px;
+    border-bottom: 1px solid black;
+}
+
+.l2 .location {
+    position: relative;
+    top: -34px;
+    left: -1px;
+    width: 328px;
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.right {
+    position: relative;
+    top: -500px;
+    left: 338px;
+    width: 512px;
+    height: 500px;
+  
+}
+
+.r1 {
+    position: relative;
+    height: 70px;
+    background-color: honeydew;
+    border: 1px solid black;
+}
+
+.r1 .profilePicture{
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 30px;
+    background-image: url(/assets/profile_picture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.profilePicture p {
+    position: relative;
+    top: -5px;
+    left: 40px;
+    width: 300px;
+    
+}
+
+b {
+    color: blue;
+}
+
+.r1 .header-bg {
+    position: relative;
+    top: -100px;
+    left: -1px;
+    height: 200px;
+    width: 512px;
+    background-image: url(/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 512px 200px;
+    border: 1px solid black;
+}
+
+.social {
+    position: relative;
+    top: -101px;
+    left: -1px;
+    width: 512px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: honeydew;
+
+}
+
+.Soc{
+    position: relative;
+    top: -25px;
+    left: -180px;
+    width: 512px;
+    height: 50px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.soc {
+    float: left;
+}
+.soc a{
+    position: relative;
+    top: 15px;
+    left: 145px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    border-right: 1px solid grey;
+}
+
+.soc:last-child a{
+    border-right: none;
+}
+
